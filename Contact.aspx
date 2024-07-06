@@ -7,7 +7,7 @@
             <p>Dirección: Avenida Principal, Colonia San Felipe de Jesús, Santa Ana.</p>
             <p>Teléfono: <a href="tel:72048125">7204-8125</a></p>
             <p>Correo electrónico: <a href="mailto:info@davidsbarbershop.com">info@davidsbarbershop.com</a></p>
-            <p>Horario de atención: Lunes a Sábado, 9:00 AM - 7:00 PM</p>
+            <p>Horario de atención: Lunes a Sábado, 9:00 AM - 6:00 PM</p>
         </section>
         
         <section id="contact-form">
@@ -23,18 +23,17 @@
 
                 <label for="phone">Teléfono:</label>
                 <input type="tel" id="phone" name="phone">
-
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Enviar</button>
             </form>
         </section>
-
         <section id="location">
-            <h2>Ubicación</h2>
-            <div id="map"></div>
-        </section>   
 
+                <label for="message">Mensaje:</label><textarea id="message" name="message" required cols="20" rows="1"></textarea>
+                
+                <button type="submit">Enviar</button>
+            
+              <h2> Ubicación</h2>
+            <div id="map"></div>
+               <h2>Reseñas</h2>
+        </section>   
     </main>
 </asp:Content>
