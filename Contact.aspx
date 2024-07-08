@@ -33,6 +33,8 @@
             
               <h2> Ubicación</h2>
             <div id="map"></div>
+            <script src="script.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script> s
                <h2>Reseñas</h2>
         </section>   
     </main>

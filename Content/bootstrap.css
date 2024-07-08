@@ -3856,14 +3856,13 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler {
-  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: var(--bs-navbar-color);
   background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
+    width: 112px;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -8215,9 +8214,9 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-    top: 23px;
-    left: -7px;
-    height: 95px;
+    top: -3px;
+    left: -3px;
+    height: 113px;
     width: 1708px;
     margin-top: 0px;
 }
@@ -10923,6 +10922,39 @@ footer {
 #map {
     width: 100%;
     height: 325px;
-    margin-bottom: 20px;
-    background-color: #e5e5e5;
 }
+
+/* Agrega los colores representativos a los iconos de redes sociales */
+.footer .social a.facebook:hover,
+.footer .social a.facebook:active {
+    color: #1877f2; /* Color de Facebook */
+}
+
+.footer .social a.instagram:hover,
+.footer .social a.instagram:active {
+    color: #e4405f; /* Color de Instagram */
+}
+
+.footer .social a.whatsapp:hover,
+.footer .social a.whatsapp:active {
+    color: #25d366; /* Color de WhatsApp */
+}
+
+.footer .logo h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer .about, .footer .social {
+    margin-bottom: 10px;
+}
+
+    .footer .social a {
+        color: black;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+
+        .footer .social a:hover {
+            color: #3049d8;
+        }
