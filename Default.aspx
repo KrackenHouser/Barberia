@@ -29,8 +29,44 @@
   </button>
 </div>
            <div class="content">
-        <h2>Servicios</h2>
+        <h2>&nbsp;</h2>
+               <h2>Servicios</h2>
         <p>Ofrecemos los mejores cortes de cabello, afeitados clásicos y modernos, y cuidado de la barba.</p>
+               <section id="services">
+    <h2>Nuestros Servicios</h2>
+    <p>En David's Barbershop, nos especializamos en ofrecer un servicio de primera calidad, asegurándonos de que te sientas renovado y con el estilo que más se adapta a ti.</p>
+
+    <div class="service-list">
+        <div class="service-item">
+            <h3>✂️ Cortes de Cabello</h3>
+            <p>Desde estilos clásicos hasta los más modernos, tenemos el corte perfecto para ti.</p>
+            <ul>
+                <li><strong>Corte Clásico:</strong> Mantén tu estilo tradicional, siempre elegante.</li>
+                <li><strong>Fade Moderno:</strong> Un look fresco y vanguardista.</li>
+                <li><strong>Cortes Personalizados:</strong> Cuéntanos tu idea y la haremos realidad.</li>
+            </ul>
+        </div>
+
+        <div class="service-item">
+            <h3>🪒 Afeitado Clásico</h3>
+            <p>Vive la experiencia de un afeitado con navaja, suave y preciso.</p>
+            <ul>
+                <li><strong>Afeitado con Navaja:</strong> Un afeitado al estilo tradicional, con resultados impecables.</li>
+                <li><strong>Cuidado Post-Afeitado:</strong> Bálsamos y lociones para revitalizar tu piel.</li>
+            </ul>
+        </div>
+
+        <div class="service-item">
+            <h3>🧔 Cuidado de Barba</h3>
+            <p>Desde un simple recorte hasta un modelado completo, mantén tu barba impecable.</p>
+            <ul>
+                <li><strong>Recorte y Modelado:</strong> Diseño y mantenimiento profesional para tu barba.</li>
+                <li><strong>Tratamientos Especializados:</strong> Aceites y bálsamos de alta calidad.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
         <hr />
         <h2>Ubicación</h2>
         <p>Visítanos en Avenida Principal, Colonia San Felipe de Jesús, Santa Ana.</p>
