@@ -47,4 +47,4 @@ namespace Barberia
         public string ImagenUrl { get; set; }
         public string Descripcion { get; set; }
     }
-}
+} 
